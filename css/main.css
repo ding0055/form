@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family:'Oswald', sans-serif;
+    font-size: 16px;
+    line-height:1.75;
+    background-color: #CDFFAE;
+}
+.mainbody {
+    margin: 0 5rem;
+}
+
+.masthead {
+    background-color: #7F9E6C;
+
+}
+.masthead h1 {
+    padding:60px 0 40px 20px;
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+}
+.mainbody::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.lab {
+
+    
+}
+.md {
+    width:60%;
+    height: 30px;
+}
+.bt {
+    margin: 1rem 5rem;
+}
+@media all and (max-width:35em){
+  .lab {
+      display: none;
+  }
+.md {
+    width:80%;
+}
+ .formbox {
+    margin: 1.5rem 0;
+}
+}
+@media all and (min-width:35em) and (max-width:60em){
+ .formbox {
+    float: left;
+    width:50%;
+}
+.md {
+    width:80%;
+}
+ 
+}
+@media all and (min-width:60em) {
+  .formbox {
+    float: left;
+    width:50%;
+    margin: 1rem 0;
+}
+  .lab {
+    float:left;
+    width:30%
+  }
+    
+}
+ 
+}
